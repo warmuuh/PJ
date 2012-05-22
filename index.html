@@ -7,11 +7,13 @@
     <meta name="description" content="Pj : WG game" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+     
+    <link rel="stylesheet" type="text/javascript" href="javascripts/PJ.main.js">
 
     <title>Pj</title>
   </head>
 
-  <body>
+  <body onstart="PJ.start()">
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -39,6 +41,8 @@
 $ git fetch origin
 $ git checkout gh-pages
 </code></pre>
+
+<div id="game"></div>
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
